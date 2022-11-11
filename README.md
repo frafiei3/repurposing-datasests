@@ -1,6 +1,6 @@
 # Repurposing Datasets 
 ## Table of Contents
-- [Drug-Target Interaction Datasets](#DTI datasets)
+- [Drug-Target Interaction Datasets](#DTI_datasets)
     - [BindingDB](#bindingdb)
     - [ChEMBL](#chembl)
     - [DrugTargetCommons (DTC)](#dtc)
@@ -9,12 +9,12 @@
     - [DGIdb](#dgi)
     - [GtopDB](#gtop)
     - [Probes & Drugs Portal](#p&d)
-- [Drug-Target Interaction GUIs](#DTI GUIs)
+- [Drug-Target Interaction GUIs](#DTI_GUIs)
     - [SwissTargetPrediction](#swiss)
     - [ChemicalChecker](#chemicalchecker)
 
-## Drug-Target Interaction Datasets <a name="DTI datasets"></a>
-### BindingDB <a name="bidingdb"></a>
+## Drug-Target Interaction Datasets <a name="DTI_datasets"></a>
+### BindingDB <a name="bindingdb"></a>
 Comprehensive resource of quantitative bio-activity data in terms of IC50, EC50, Kd and Ki assays. This dataset has 193 columns, which most of those are addressing the protein in other datasets (e.g. PubChem, ChEMBL, UniProt, etc.)
 Some of the most important attributes are:
 - Ligand SMILES
@@ -146,7 +146,7 @@ A public resource joining together focused libraries of bioactive compounds (e.g
 ---
 ---
 ---
-## Drug-Target Interaction GUIs <a name="DTI GUIs"></a>
+## Drug-Target Interaction GUIs <a name="DTI_GUIs"></a>
 ### SwissTargetPrediction <a name="swiss"></a>
 Contains information on predicted targets of drugs based on similarity principle through reverse screening. This is an application and it is freely available [here](http://www.swisstargetprediction.ch/). But there is no dataset associated to it. Apparently, they are using ChEMBL data to make predictions regarding a new small molecule.
 ### ChemicalChecker <a name="chemicalchecker"></a>
